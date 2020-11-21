@@ -16,12 +16,21 @@ body {
   align-items: center;
 }
 
+.sw-title {
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: bold;
+  color: #79828C;
+  font-size: 48px;
+  margin-bottom: 40px;
+}
+
 .sw-movies {
   &__select {
     min-width: 300px;
     padding: 10px 10px;
     box-sizing: border-box;
     color: #79828C;
+    margin-bottom: 40px;
   }
 }
 

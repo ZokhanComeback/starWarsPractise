@@ -9,6 +9,15 @@
     <link rel="stylesheet" href='/stylesheets/style.css'>
 </head>
 <body>
+  <div class="lds-default" id="loader">
+    <div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div>
+  </div>
+  <select class="sw-movies__select">
+    <option disabled selected value="0">Select a movie</option>
+    <%- films%>
+  </select>
+  <h1 class="sw-title"><%- title%></h1>
   <ul class="sw-heroes__list"><%- heroes%></ul>
+  <script src="/javascripts/index.js"></script>
 </body>
 </html>
