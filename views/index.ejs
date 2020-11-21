@@ -12,7 +12,10 @@
   <div class="lds-default" id="loader">
     <div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div>
   </div>
-  <ul class="sw-movies__list"><%- films%></ul>
+  <select class="sw-movies__select">
+    <option disabled selected value="0">Select a movie</option>
+    <%- films%>
+  </select>
   <script src="/javascripts/index.js"></script>
 </body>
 </html>

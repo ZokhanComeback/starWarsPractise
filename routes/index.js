@@ -6,7 +6,7 @@ const Store = require('../model/Store');
 
 const getHtmlFromMovies = (movies) => {
   return movies
-    .map(m => `<li class="sw-movies__item"><a class="sw-movies__link" href="${m.episode_id}">${m.title}</a></li>`)
+    .map(m => `<option value="${m.episode_id}">${m.title}</option>`)
     .join('');
 };
 

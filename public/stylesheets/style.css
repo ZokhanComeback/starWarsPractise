@@ -12,12 +12,18 @@ body {
   flex-direction: column;
   align-items: center; }
 
-.sw-movies__list, .sw-heroes__list {
+.sw-movies__select {
+  min-width: 300px;
+  padding: 10px 10px;
+  box-sizing: border-box;
+  color: #79828C; }
+
+.sw-heroes__list {
   display: flex;
   flex-direction: column;
   list-style: none; }
 
-.sw-movies__item, .sw-heroes__item {
+.sw-heroes__item {
   box-sizing: border-box;
   width: 100%;
   padding: 10px 0;
@@ -25,7 +31,7 @@ body {
   font-weight: bold;
   color: #79828C; }
 
-.sw-movies__link, .sw-heroes__link {
+.sw-heroes__link {
   text-decoration: none;
   color: #79828C; }
 

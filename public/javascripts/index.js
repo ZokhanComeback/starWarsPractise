@@ -1,12 +1,9 @@
-const links = [...document.querySelectorAll('.sw-movies__link')];
+const select = document.querySelector('.sw-movies__select');
 const loader = document.querySelector('#loader');
 
-for (const l of links) {
-  l.addEventListener('click', () => {
-    if (
-      loader
-    ) {
-      loader.style.display = 'inline-block'
-    }
-  })
+const onInput = () => {
+  window.location.href = 'http://localhost:3000/' + select.value;
+  loader.style.display = 'inline-block';
 }
+
+select.addEventListener('input', onInput);

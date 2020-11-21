@@ -16,7 +16,16 @@ body {
   align-items: center;
 }
 
-.sw-movies, .sw-heroes {
+.sw-movies {
+  &__select {
+    min-width: 300px;
+    padding: 10px 10px;
+    box-sizing: border-box;
+    color: #79828C;
+  }
+}
+
+.sw-heroes {
   &__list {
     display: flex;
     flex-direction: column;
