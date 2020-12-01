@@ -7,3 +7,4 @@ const onInput = () => {
 }
 
 select.addEventListener('input', onInput);
+
